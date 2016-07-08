@@ -6,8 +6,14 @@
 [![Coverage Status](https://coveralls.io/repos/github/flere/flere/badge.svg?branch=master)](https://coveralls.io/github/flere/flere?branch=master)
 [![Apache 2 Licensed](https://img.shields.io/badge/license-Apache2-blue.svg)](https://github.com/flere/flere/blob/master/LICENSE)
 
-The intelligent integration bot
+The intelligent integration bot.
 
 ## About
 
-A child of homu, grandchild of bors, Flere is an evolved integration bot
+A child of homu, grandchild of bors, Flere is an evolved integration bot.
+
+## License
+
+Copyright (c) 2016 Flere-Imsaho, Tony Arcieri.
+Distributed under the Apache 2.0 License.
+See LICENSE file for further details.
