@@ -9,7 +9,29 @@
  * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
  */
+
+/* Custom bootstrap variables must be set or imported before bootstrap itself. */
+@import "bootstrap";
+
+.navbar {
+  border-radius: 0;
+}
+
+.navbar-brand {
+  font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  letter-spacing: 8px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand img {
+  display: inline-block;
+  margin-top: -4px;
+}
+
+.navbar-brand span {
+  letter-spacing: 10px;
+}
